@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[top=0.9in, bottom=1in, left=1.5in, right=1.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[icelandic]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[sc]{mathpazo}
+\usepackage[parfill]{parskip}
+% Tables and lists
+\usepackage{booktabs,tabularx}
+\usepackage{multirow}
+\usepackage{enumerate}
+\usepackage{adjustbox}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{algpseudocode}
+\usepackage{tikz}
+\usetikzlibrary{arrows, positioning, calc}
+
+% Math
+\usepackage{amsmath, amsfonts, amssymb, amsthm}
+% Graphics
+
+\usepackage{graphicx}
+\usepackage{tikz}
+% Code environment
+\usepackage{minted}
+%\usepackage{bm}
+%\usepackage{siunitx}
+%\usepackage{animate}
+%\usepackage{hyperref}
+%\usepackage{movie15}
+%\usepackage{multicol}
+%\usepackage{changepage}
+\title{Tol2 Heimadæmi 3}
+\author{Ragnar Björn Ingvarsson, rbi3}
+
+
+\begin{document}
+	
+	\maketitle
+	
+	\section{}
+	\begin{tikzpicture}[->, >=stealth',shorten >= 1pt, node distance=2cm,thick,auto,main node/.style={circle,draw,text=black, minimum size=1em}]
+		\node[main node] (i) {i};
+		\node[main node, below right of=i] (p) {p};
+
+		\path (i) edge node {} (p);
+
+	\end{tikzpicture}
+
+
+\end{document}
